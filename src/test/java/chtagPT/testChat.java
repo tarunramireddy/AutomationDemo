@@ -16,4 +16,10 @@ public class testChat {
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
 	}
+	
+	public static void main(String[] args) throws Exception {
+		testChat t = new testChat();
+		t.test1();
+		
+	}
 }
