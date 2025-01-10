@@ -1,11 +1,14 @@
 package chtagPT;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.*;
+import org.testng.annotations.Test;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class testChat {
-	public static void main(String[] args) throws Exception {
-
+	
+	@Test
+	public void test1() throws Exception {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		Thread.sleep(5000);
